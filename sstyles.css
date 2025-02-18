@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+     font-family: 'Poppins',sans-serif;
+     box-sizing: border-box; }
+
+
+
+body{
+  
+  background-color: antiquewhite;}
+
+.logo{
+  text-align: left;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ff6347;
+  }
+
+
+.rrr{
+  margin-top: 10px;
+  margin-left: 300px;
+  
+}
+.eee{
+
+  margin-top: 0px;
+  margin-right:200px;
+  text-align: right;
+  
+
+}
+.tft{
+  margin-left:300px ;
+}
+.aboutt{
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 10px;
+}
+.qqt{
+  border-style: outset;
+  
+  border-color: aquamarine;
+  border-radius: 10px;
+  padding: 5px;
+  width: 350px;
+  height: 250px;
+  margin-left: 590px;
+  margin-top: 5px;
+}
+
+
+.skillss{
+ margin-top: 10px;
+ margin-bottom: 100px;
+ 
+}
+.fir{
+  border-style: solid;
+  border-color: rgb(255, 133, 127);
+  border-radius: 10px;
+  padding: 5px;
+  width: 350px;
+  height: 250px;
+ 
+  margin-top: 5px;
+  padding-top: 50px;
+  float: left;
+}
+.sec{
+  margin-top: 5px;
+  border-style: solid;
+  border-color: rgb(255, 133, 127);
+  border-radius: 10px;
+  padding: 5px;
+  width: 350px;
+  height: 250px;
+  padding-top: 50px;
+  
+  margin-left: 80px;
+  float: left;
+  
+
+
+}
+.thi{
+  margin-top: 5px;
+  border-style: solid;
+  border-color: rgb(255, 133, 127);
+  border-radius: 10px;
+  padding: 5px;
+  width: 350px;
+  height: 250px;
+  padding-top: 50px;
+  
+  margin-left: 850px;
+
+}
+#experience{
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+
+.ll{
+  margin-top: 0px;
+  margin-left: 300px;
+}
+#project{
+  margin-top: 150px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+}
+.oo{
+  font-size: 20px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
+
+.gg{
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+ p.gg{
+  margin-top: 10px;
+  margin-left: 50px;
+ }
+
+
+.contact {
+  margin-top: 205px;
+ margin-left: 200px;
+}
+
+#image{
+  
+  margin-right: 100px;
+
+}
+ 
+
+
