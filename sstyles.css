@@ -1,175 +1,166 @@
-*{
-    margin: 0;
-    padding: 0;
-    
-    
-     font-family: 'Poppins',sans-serif;
-     box-sizing: border-box; }
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
 
+body {
+  background-color: antiquewhite;
+}
 
+/* Header & Navigation */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
 
-body{
-  
-  background-color: antiquewhite;}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
 
-.logo{
+.logo {
+  font-size: 1.8rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff6347;
+}
+
+/* Home Section */
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  gap: 50px;
+}
+
+.text-container {
   text-align: left;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+#image {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.role-description {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  margin: 80px 20px;
+}
+
+/* Skills Section */
+.skills {
+  margin: 80px 20px;
+}
+
+.skill-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.skill-section div {
+  border: 2px solid rgb(255, 133, 127);
+  padding: 30px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+/* Experience Section */
+.experience {
+  margin: 80px 20px;
+}
+
+.experience img {
+  margin-top: 20px;
+}
+
+/* Projects Section */
+.projects {
+  margin: 80px 20px;
+}
+
+ol li {
+  margin-bottom: 40px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+/* Contact Section */
+.contact {
+  text-align: center;
+  margin: 80px 20px;
+}
+
+.contact a img {
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.contact a img:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    text-align: center;
   }
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+
+  #image {
+    width: 300px;
+    height: 300px;
   }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
+
+  .skill-section {
+    flex-direction: column;
     gap: 20px;
   }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s ease;
+
+  .skill-section div {
+    width: 100%;
   }
-  
-  .nav-links a:hover {
-    color: #ff6347;
-  }
-
-
-.rrr{
-  margin-top: 10px;
-  margin-left: 300px;
-  
-}
-.eee{
-
-  margin-top: 0px;
-  margin-right:200px;
-  text-align: right;
-  
-
-}
-.tft{
-  margin-left:300px ;
-}
-.aboutt{
-  text-align: center;
-  margin-top: 200px;
-  margin-bottom: 10px;
-}
-.qqt{
-  border-style: outset;
-  
-  border-color: aquamarine;
-  border-radius: 10px;
-  padding: 5px;
-  width: 350px;
-  height: 250px;
-  margin-left: 590px;
-  margin-top: 5px;
 }
 
 
-.skillss{
- margin-top: 10px;
- margin-bottom: 100px;
- 
-}
-.fir{
-  border-style: solid;
-  border-color: rgb(255, 133, 127);
-  border-radius: 10px;
-  padding: 5px;
-  width: 350px;
-  height: 250px;
- 
-  margin-top: 5px;
-  padding-top: 50px;
-  float: left;
-}
-.sec{
-  margin-top: 5px;
-  border-style: solid;
-  border-color: rgb(255, 133, 127);
-  border-radius: 10px;
-  padding: 5px;
-  width: 350px;
-  height: 250px;
-  padding-top: 50px;
-  
-  margin-left: 80px;
-  float: left;
-  
 
-
-}
-.thi{
-  margin-top: 5px;
-  border-style: solid;
-  border-color: rgb(255, 133, 127);
-  border-radius: 10px;
-  padding: 5px;
-  width: 350px;
-  height: 250px;
-  padding-top: 50px;
-  
-  margin-left: 850px;
-
-}
-#experience{
-  margin-top: 200px;
-  margin-left: 200px;
-  margin-bottom: 100px;
-}
-
-.ll{
-  margin-top: 0px;
-  margin-left: 300px;
-}
-#project{
-  margin-top: 150px;
-  margin-bottom: 100px;
-  margin-left: 200px;
-}
-.oo{
-  font-size: 20px;
-  margin-left: 200px;
-  margin-bottom: 50px;
-}
-
-
-.gg{
-  margin-top: 10px;
-  margin-left: 200px;
-  margin-top: 10px;
-  margin-bottom: 10px;
- }
- p.gg{
-  margin-top: 10px;
-  margin-left: 50px;
- }
-
-
-.contact {
-  margin-top: 205px;
- margin-left: 200px;
-}
-
-#image{
-  
-  margin-right: 100px;
-
-}
  
 
 
